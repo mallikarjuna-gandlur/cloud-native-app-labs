@@ -28,7 +28,7 @@ public class GreetingController {
 	String getGreeting(Model model){
 		
 		logger.debug("Adding greeting");
-		model.addAttribute("msg", "Hello Greetings!!!");
+		model.addAttribute("msg", "Greetings!!!");
 		
 		if(greetingProperties.isDisplayFortune()){
 			logger.debug("Adding fortune");
